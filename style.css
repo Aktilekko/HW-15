@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      45deg,
+      rgba(234, 241, 245, 0.8),
+      rgba(244, 246, 247, 0.5)
+    ),
+    url(https://img.freepik.com/free-photo/clouds_69709-219.jpg?size=626&ext=jpg&ga=GA1.2.710789289.1654630818);
+  background-size: cover;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  margin: 100px 0 50px 0;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 300px);
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 380px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(43, 25, 115, 0.9);
+}
+
+.product-card-inner {
+  padding: 0 20px;
+}
+
+.product-img {
+  width: 250px;
+  height: 270px;
+  object-fit: contain;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.title-price-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.product-name {
+  text-align: justify;
+  width: 250px;
+}
+
+.product-price {
+  width: 100px;
+  text-align: right;
+  font-size: 18px;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+.product-descr {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
